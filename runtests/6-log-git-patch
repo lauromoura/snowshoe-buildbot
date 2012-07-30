@@ -1,0 +1,14 @@
+346:0diff --git a/pyflakes/checker.py b/pyflakes/checker.py
+index 7c348b8..af37cba 100644
+--- a/pyflakes/checker.py
++++ b/pyflakes/checker.py
+@@ -182,7 +182,7 @@ class Checker(object):
+     """
+ 
+     nodeDepth = 0
+-    traceTree = False
++    traceTree = True
+ 
+     def __init__(self, tree, filename='(none)'):
+         self._deferredFunctions = []
+,
